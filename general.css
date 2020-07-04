@@ -85,24 +85,24 @@ html, body {
     width: 84%;
     height: 73%;
 }
-#rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+#rapper .menu .swiper-container #phonebanner {
     display: none; 
 }
-#rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+#mac {
     position: absolute;
-    z-index: 0;
+    z-index: 1;
     width: 38%;
     height: 330px;
     left: 54%;
-    top: 100px;
+    top: 250px;
 }
-#rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
-    position: absolute; width: 40%; height: 173px; left: 166px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
+#rapper .menu .swiper-container .main {
+    position: absolute; width: 40%; height: 173px; left: 166px; top: 250px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 38px; line-height: 52px; color: white;
 }
-#rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+#rapper .menu .swiper-container #regbutton {
     margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 166px; top: 377px; background: #F16464; border-radius: 28px;
 }
-#rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+#rapper .menu .swiper-container #page2but {
     position: absolute; left: 72.5%; top: 380px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2; transform: translateX(-50%);
 
 }
@@ -314,14 +314,14 @@ html, body {
         width: 80%;
         height: 80%;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+    #rapper .menu .swiper-container #page2but {
         position: absolute; left: 71%; top: 420px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: bold; z-index: 2; transform: translateX(-50%);
     
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+    #rapper .menu .swiper-container .main {
         position: absolute; width: 40%; height: 233px; left: 230px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 45px; line-height: 52px; color: white;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+    #rapper .menu .swiper-container #mac {
         position: absolute;
         z-index: 0;
         width: 44%;
@@ -475,8 +475,8 @@ html, body {
         height: 73%;
     }
     /* Menu */
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
-        position: absolute; width: 40%; height: 173px; left: 130px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 28px; line-height: 47px; color: white;
+    #rapper .menu .swiper-container .main {
+        position: absolute; width: 40%; height: 173px; left: 130px; top: 250px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 28px; line-height: 47px; color: white;
     }
     /* Interview Assistance Section */
     #rapper .specs1 .deco1 {
@@ -559,9 +559,13 @@ html, body {
         overflow-x: hidden;
     }
     /* Menu */
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
-        position: absolute; width: 40%; height: 173px; left: 80px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 21px; line-height: 40px; color: white;
+    #bob {
+        position: absolute; width: 40%; height: 300px; left: 30px; top: 130px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 21px; line-height: 40px; color: white;
+
     }
+    /* #rapper .menu .swiper-container .main {
+        position: absolute; width: 40%; height: 300px; left: 80px; top: 170px; font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 21px; line-height: 40px; color: white;
+    } */
     #rapper .menu #banner {
         width: 84%;
         height: 400px;
@@ -571,22 +575,22 @@ html, body {
         transform: translateX(-50%);
         display: block; margin: auto;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+    #rapper .menu .swiper-container #regbutton {
         margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 210px; transform: translateX(-50%);
         top: 340px; background: #F16464; border-radius: 28px;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+    #rapper .menu .swiper-container #phonebanner {
         display: none; 
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+    #rapper .menu .swiper-container #mac {
         position: absolute;
         z-index: 0;
         width: 43%;
-        height: 27%;
+        height: 35%;
         left: 51%;
-        top: 14%;
+        top: 27%;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+    #rapper .menu .swiper-container #page2but {
         position: absolute; left: 72.5%; transform: translateX(-50%); top: 290px; color: yellow; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: normal; z-index: 2
     }
     #rapper .menu .swiper-container .words {
@@ -726,7 +730,7 @@ html, body {
     #rapper .menu .swiper-container .words {
         position: fixed;
         z-index: 1000;
-        margin-top: 180px; 
+        margin-top: 0px; 
         width: 100%;
         height: 160px;
         text-align: left;
@@ -791,7 +795,7 @@ html, body {
         font-weight:600;
         z-index: 2;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+    #rapper .menu .swiper-container #phonebanner {
         display: inline-block;
         top: 0px;
         width: 350px;
@@ -800,13 +804,12 @@ html, body {
         left: 50%;
         transform: translateX(-50%);
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #banner {
+    #rapper .menu .swiper-container #banner {
         display: none;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+    #rapper .menu .swiper-container #mac {
         position: relative;
         display: inline-block;
-        z-index: -1; 
         width: 330px;
         height: 220px;
         top: 0px;
@@ -816,13 +819,13 @@ html, body {
         padding: 0; 
 
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+    #rapper .menu .swiper-container .main {
         position: absolute;
         width: 300px;
         height: 170px;
         left: 50%;
         transform: translateX(-50%);
-        top: 270px;
+        top: 450px;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
@@ -830,11 +833,11 @@ html, body {
         line-height: 32px;
         color: white;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+    #rapper .menu .swiper-container #regbutton {
         margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 50%; transform: translateX(-50%);
         top: 410px; background: #F16464; border-radius: 28px;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+    #rapper .menu .swiper-container #page2but {
         margin: 0; padding: 0;
         position: absolute; left: 50%; transform: translateX(-50%); top: 450px; font-size: 17px; font-size: 18px;
     }
@@ -865,7 +868,7 @@ html, body {
         position: absolute; height: 41px; left: 50%; transform: translateX(-50%); top: 1620px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: bold; font-size: 26px; line-height: 41px; color: #484848;
     }
     #rapper .specs1 #ffirms {
-        position: absolute; width: 150px; height: 30px; left: 50%; top: 1661px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 20px; line-height: 30px; color: #5576A8;
+        position: absolute; width: 150px; height: 30px; left: 74%; top: 1694px; font-family: 'Open Sans', sans-serif; font-style: italic; font-weight: normal; font-size: 20px; line-height: 30px; color: #5576A8;
     }
     #rapper .specs1 #tbar {
         position: absolute; width: 618px; height: 0px; left: 392px; margin-left: -640px; top: 2050px; border: 2px solid #5576A8; transform: rotate(90deg)
@@ -1114,7 +1117,7 @@ html, body {
         font-weight:600;
         z-index: 2;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #phonebanner {
+    #rapper .menu .swiper-container #phonebanner {
         display: inline-block;
         top: 0px;
         width: 300px;
@@ -1123,10 +1126,10 @@ html, body {
         left: 50%;
         transform: translateX(-50%);
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #banner {
+    #rapper .menu .swiper-container #banner {
         display: none;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #mac {
+    #rapper .menu .swiper-container #mac {
         position: relative;
         display: inline-block;
         z-index: -1; 
@@ -1139,7 +1142,7 @@ html, body {
         padding: 0; 
 
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide .main {
+    #rapper .menu .swiper-container .main {
         position: absolute;
         width: 300px;
         height: 170px;
@@ -1153,11 +1156,11 @@ html, body {
         line-height: 32px;
         color: white;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #regbutton {
+    #rapper .menu .swiper-container #regbutton {
         margin: 0; padding: 0; z-index: 1; position: absolute; width: 309px; height: 56px; left: 50%; transform: translateX(-50%);
         top: 410px; background: #F16464; border-radius: 28px;
     }
-    #rapper .menu .swiper-container .swiper-wrapper .swiper-slide #page2but {
+    #rapper .menu .swiper-container #page2but {
         margin: 0; padding: 0;
         position: absolute; left: 50%; transform: translateX(-50%); top: 450px; font-size: 17px; font-size: 18px;
     }

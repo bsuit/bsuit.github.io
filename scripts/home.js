@@ -5,19 +5,9 @@ $(document).ready(function () {
 
 /* Sample Questions Section */
 $(document).ready(function() { //wait for shizzles to 
-    let mySwiper1; let mySwiper2;
+    let mySwiper2;
     let current = 1;  
-    //initialize swiper when document ready
-    mySwiper1 = new Swiper ('.swiper-container', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        initialSlide: 1,
-    });
+   
     mySwiper2 = new Swiper ('.swiper-containerdos', {
         // Optional parameters
         direction: 'horizontal',
