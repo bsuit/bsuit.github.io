@@ -1,6 +1,7 @@
 var home = document.getElementById('home');
 var whutwedo = document.getElementById('whutwedo');
 var service = document.getElementById('serv')
+var buttonuno = document.getElementById('buttonuno');
 
 var first = document.querySelector('.navbar');
 var second = document.querySelector('.firstinfo');
@@ -13,6 +14,10 @@ whutwedo.addEventListener('click', function() {
     second.scrollIntoView({ behavior: 'smooth', block: 'center' });
 })
 service.addEventListener('click', function() {
+    thrid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+})
+
+buttonuno.addEventListener('click', function() {
     thrid.scrollIntoView({ behavior: 'smooth', block: 'center' });
 })
 
